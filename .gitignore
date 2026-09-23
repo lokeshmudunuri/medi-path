@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+medical-ai-offline/data/*.db-shm
+medical-ai-offline/data/*.db-wal
