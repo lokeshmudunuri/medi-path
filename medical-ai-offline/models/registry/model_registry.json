@@ -1,0 +1,167 @@
+{
+  "$schema": "version 1",
+  "comment": "Centralized model registry. All model metadata lives here so the rest of the app never hard-codes URLs, filenames or sizes.",
+  "models": [
+    {
+      "id": "ocr-rapidocr",
+      "name": "Prescription OCR (RapidOCR PaddleOCR-lite)",
+      "type": "ocr",
+      "runtime": "onnxruntime",
+      "version": "1.3.24",
+      "required": true,
+      "files": [
+        {
+          "name": "ch_PP-OCRv4_det_infer.onnx",
+          "url": "https://huggingface.co/SWHL/RapidOCR/resolve/main/PP-OCRv4/ch_PP-OCRv4_det_infer.onnx",
+          "size_bytes": 4745517,
+          "sha256": null
+        },
+        {
+          "name": "ch_PP-OCRv4_rec_infer.onnx",
+          "url": "https://huggingface.co/SWHL/RapidOCR/resolve/main/PP-OCRv4/ch_PP-OCRv4_rec_infer.onnx",
+          "size_bytes": 10857958,
+          "sha256": null
+        },
+        {
+          "name": "ch_ppocr_mobile_v2.0_cls_infer.onnx",
+          "url": "https://huggingface.co/SWHL/RapidOCR/resolve/main/PP-OCRv1/ch_ppocr_mobile_v2.0_cls_infer.onnx",
+          "size_bytes": 585532,
+          "sha256": null
+        }
+      ],
+      "total_size_bytes": 16189007,
+      "minimum_storage_bytes": 35000000,
+      "minimum_ram_bytes": 536870912,
+      "quantization": "int8",
+      "accelerator": "onnxruntime-CPU",
+      "license": "Apache-2.0",
+      "install_path_relative": "ocr/rapidocr",
+      "languages": ["en", "hi", "ta", "bn", "mr"],
+      "source": "https://huggingface.co/SWHL/RapidOCR",
+      "description": "Handwritten prescription / medical document analysis"
+    },
+    {
+      "id": "stt-vosk-en",
+      "name": "Speech Recognition (Vosk small English)",
+      "type": "stt",
+      "runtime": "vosk",
+      "version": "0.15",
+      "required": true,
+      "files": [
+        {
+          "name": "vosk-model-small-en-us-0.15.zip",
+          "url": "https://alphacephei.com/vosk/models/vosk-model-small-en-us-0.15.zip",
+          "size_bytes": 42000000,
+          "sha256": null
+        }
+      ],
+      "total_size_bytes": 42000000,
+      "minimum_storage_bytes": 90000000,
+      "minimum_ram_bytes": 536870912,
+      "quantization": "int8",
+      "accelerator": "CPU",
+      "license": "Apache-2.0 (model), model-specific",
+      "install_path_relative": "stt/vosk-en",
+      "languages": ["en"]
+    },
+    {
+      "id": "llm-gemma3-1b",
+      "name": "Local Medical AI (Gemma 3 1B)",
+      "type": "llm",
+      "runtime": "ollama",
+      "version": "1b",
+      "required": true,
+      "files": [
+        {
+          "name": "gemma3:1b",
+          "url": "ollama://gemma3:1b",
+          "size_bytes": 1050000000,
+          "sha256": null
+        }
+      ],
+      "total_size_bytes": 1050000000,
+      "minimum_storage_bytes": 2000000000,
+      "minimum_ram_bytes": 2147483648,
+      "quantization": "q4_K_M",
+      "accelerator": "CPU/GPU (On-Device)",
+      "license": "Gemma Open Model Terms",
+      "install_path_relative": "llm/ollama/gemma3-1b",
+      "languages": ["en"],
+      "source": "https://huggingface.co/google/gemma-3-1b-it",
+      "description": "Medical extraction + local clinical explanation"
+    },
+    {
+      "id": "llm-qwen3-coder",
+      "name": "Local LLM Fallback (Qwen3 Coder 16k)",
+      "type": "llm",
+      "runtime": "ollama",
+      "version": "latest",
+      "required": false,
+      "files": [
+        {
+          "name": "qwen3-coder-16k:latest",
+          "url": "ollama://qwen3-coder-16k:latest",
+          "size_bytes": 18557000000,
+          "sha256": null
+        }
+      ],
+      "total_size_bytes": 18557000000,
+      "minimum_storage_bytes": 22000000000,
+      "minimum_ram_bytes": 8589934592,
+      "quantization": "q4_K_M",
+      "accelerator": "CPU/GPU",
+      "license": "Apache-2.0 (Qwen)",
+      "install_path_relative": "llm/ollama/qwen3-coder",
+      "languages": ["en"],
+      "source": "https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct",
+      "description": "Local coding LLM (Fallback runtime only — not target medical model)"
+    },
+    {
+      "id": "tts-piper-en",
+      "name": "Text-to-Speech (Piper en_US-lessac-medium)",
+      "type": "tts",
+      "runtime": "piper",
+      "version": "1.0",
+      "required": true,
+      "files": [
+        {
+          "name": "en_US-lessac-medium.onnx",
+          "url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/lessac/medium/en_US-lessac-medium.onnx",
+          "size_bytes": 6330092,
+          "sha256": null
+        },
+        {
+          "name": "en_US-lessac-medium.onnx.json",
+          "url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/lessac/medium/en_US-lessac-medium.onnx.json",
+          "size_bytes": 2417,
+          "sha256": null
+        }
+      ],
+      "total_size_bytes": 6340000,
+      "minimum_storage_bytes": 25000000,
+      "minimum_ram_bytes": 268435456,
+      "quantization": "uint8",
+      "accelerator": "CPU/onnxruntime",
+      "license": "MIT (Piper), CC0-1.0 (voice)",
+      "install_path_relative": "tts/piper-en",
+      "languages": ["en"]
+    },
+    {
+      "id": "medical-base-en",
+      "name": "Local Medical Knowledge Base (bundled, updatable)",
+      "type": "other",
+      "runtime": "json",
+      "version": "1",
+      "required": true,
+      "files": [],
+      "total_size_bytes": 0,
+      "minimum_storage_bytes": 0,
+      "minimum_ram_bytes": 0,
+      "quantization": "",
+      "accelerator": "CPU",
+      "license": "Proprietary curated starter data",
+      "install_path_relative": "knowledge",
+      "languages": ["en"]
+    }
+  ]
+}

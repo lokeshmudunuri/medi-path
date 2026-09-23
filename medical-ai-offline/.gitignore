@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Runtime application storage (privacy sensitive, kept on device)
+data/models/*
+data/cases/*
+!data/models/.gitkeep
+!data/cases/.gitkeep
+
+# Test / tooling
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local env
+.env

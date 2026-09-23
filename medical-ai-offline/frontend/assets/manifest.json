@@ -1,0 +1,10 @@
+{
+  "name": "LocalMed — Offline Medical Assistant",
+  "short_name": "LocalMed",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f2f6fa",
+  "theme_color": "#084a76",
+  "description": "Offline-first on-device medical assistant. Prescriptions, cases and chat stay on the device.",
+  "icons": []
+}

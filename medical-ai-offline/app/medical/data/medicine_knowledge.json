@@ -1,0 +1,255 @@
+{
+  "version": 1,
+  "license": "Curated starter knowledge base supplied with the application. Review and extend locally before use. Not a substitute for professional medical advice.",
+  "generated_from": "General public drug counselling points compiled from standard package inserts and common public health guidance. Administrator must review and may extend this file.",
+  "disclaimer": "This file is informational only. Always follow the prescriber's instructions. In case of doubt contact a doctor or pharmacist.",
+  "medicines": {
+    "paracetamol": {
+      "aliases": ["pcm", "acetaminophen", "tylenol", "dolo 650", "calpol"],
+      "category": "analgesic / antipyretic",
+      "indications_summary": "Used for mild to moderate pain and fever.",
+      "common_side_effects": ["Rare; nausea, rash"],
+      "cautions": ["Do not exceed the maximum recommended daily dose.", "Avoid other medicines containing paracetamol in the same day.", "Use with caution if you have liver problems."],
+      "takeaways": ["Take the dose your doctor prescribed. Never exceed the maximum daily amount for paracetamol.", "If fever or pain persists beyond the prescribed duration, consult your doctor."],
+      "diet_rules": ["Can be taken with or without food.", "Avoid alcohol during treatment."]
+    },
+    "ibuprofen": {
+      "aliases": ["brufen", "advil", "motrin", "ibugesic"],
+      "category": "NSAID, analgesic / anti-inflammatory",
+      "indications_summary": "Used for pain, inflammation and fever.",
+      "common_side_effects": ["Indigestion", "heartburn", "nausea"],
+      "cautions": ["Take with food to protect the stomach.", "Avoid if you have a stomach ulcer, asthma sensitive to NSAIDs, or severe kidney problems.", "Avoid in the last trimester of pregnancy unless advised."],
+      "takeaways": ["Do not combine two types of NSAID medicines at the same time.", "Use the lowest effective dose for the shortest time."],
+      "diet_rules": ["Take with food or milk."]
+    },
+    "amoxicillin": {
+      "aliases": ["amoxil", "mox", "amoxycillin"],
+      "category": "antibiotic (penicillin)",
+      "indications_summary": "Antibiotic for bacterial infections.",
+      "common_side_effects": ["Diarrhoea", "nausea", "rash"],
+      "cautions": ["Tell your doctor if you are allergic to penicillin.", "Complete the full course even if you feel better."],
+      "takeaways": ["Finish the entire prescribed course.", "If a skin rash or breathing difficulty occurs, get medical help immediately."],
+      "diet_rules": ["Can be taken with or without food."]
+    },
+    "azithromycin": {
+      "aliases": ["azee", "zithromax"],
+      "category": "antibiotic (macrolide)",
+      "indications_summary": "Antibiotic for bacterial infections.",
+      "common_side_effects": ["Nausea", "diarrhoea", "abdominal pain"],
+      "cautions": ["If you have heart rhythm problems, tell your doctor.", "Complete the full course."],
+      "takeaways": ["Finish the prescribed course even if you feel better."],
+      "diet_rules": ["Take 1 hour before or 2 hours after food."]
+    },
+    "metformin": {
+      "aliases": ["glycomet", "glucophage"],
+      "category": "antidiabetic (biguanide)",
+      "indications_summary": "Used to control blood sugar in type 2 diabetes.",
+      "common_side_effects": ["Nausea", "diarrhoea", "metallic taste"],
+      "cautions": ["Tell your doctor about any kidney problems.", "Injectable contrast (CT scan) may require stopping it temporarily — ask your doctor."],
+      "takeaways": ["Take with food to reduce stomach upset.", "Do not stop without talking to your doctor."],
+      "diet_rules": ["Take with or right after meals.", "Avoid heavy alcohol intake."]
+    },
+    "omeprazole": {
+      "aliases": ["omec", "prilosec", "ozd"],
+      "category": "proton pump inhibitor (PPI)",
+      "indications_summary": "Reduces stomach acid; used for acidity and reflux.",
+      "common_side_effects": ["Headache", "nausea", "wind"],
+      "cautions": ["Tell your doctor about long-term use or if you take clopidogrel."],
+      "takeaways": ["Take at the same time each day.", "Long-term use should be reviewed by a doctor."],
+      "diet_rules": ["Best taken before breakfast."]
+    },
+    "pantoprazole": {
+      "aliases": ["pantocid", "pan", "protonix"],
+      "category": "proton pump inhibitor (PPI)",
+      "indications_summary": "Reduces stomach acid; used for acidity and reflux.",
+      "common_side_effects": ["Headache", "nausea"],
+      "cautions": ["Long-term use should be reviewed by a doctor."],
+      "takeaways": ["Take once daily at the same time, preferably before a meal."],
+      "diet_rules": ["Best taken before breakfast."]
+    },
+    "amlodipine": {
+      "aliases": ["amlogard", "amlopres", "norvasc"],
+      "category": "calcium channel blocker; blood pressure medicine",
+      "indications_summary": "Used to lower blood pressure and treat some chest pain.",
+      "common_side_effects": ["Swelling of ankles", "flushing", "headache"],
+      "cautions": ["Do not stop suddenly without medical advice.", "Report persistent ankle swelling."],
+      "takeaways": ["Take at the same time each day.", "Do not stop the medicine without your doctor."],
+      "diet_rules": ["Avoid grapefruit and grapefruit juice."]
+    },
+    "losartan": {
+      "aliases": ["losar", "cozaar", "losakind"],
+      "category": "ARB; blood pressure medicine",
+      "indications_summary": "Used to lower blood pressure and protect the kidneys in some conditions.",
+      "common_side_effects": ["Dizziness", "low blood pressure"],
+      "cautions": ["Let your doctor know if you are pregnant.", "Avoid potassium supplements without advice."],
+      "takeaways": ["Take at the same time each day.", "Do not stop without your doctor."],
+      "diet_rules": ["Avoid large amounts of potassium supplements or salt substitutes without advice."]
+    },
+    "atorvastatin": {
+      "aliases": ["atorva", "lipitor", "atorlip"],
+      "category": "statin; cholesterol medicine",
+      "indications_summary": "Used to lower cholesterol.",
+      "common_side_effects": ["Muscle aches", "headache", "indigestion"],
+      "cautions": ["Report unexplained muscle pain or weakness.", "Tell your doctor about grapefruit consumption."],
+      "takeaways": ["Take at the same time each day.", "Sudden muscle pain with dark urine needs urgent medical attention."],
+      "diet_rules": ["Avoid drinking grapefruit juice during treatment."]
+    },
+    "levothyroxine": {
+      "aliases": ["thyronorm", "eltroxin", "thyrox"],
+      "category": "thyroid hormone",
+      "indications_summary": "Replacement thyroid hormone for underactive thyroid.",
+      "common_side_effects": ["None at the correct dose; palpitations or sweating suggest a dose check is needed"],
+      "cautions": ["Take on an empty stomach, at least 30-60 minutes before breakfast.", "Skip doses only on medical advice."],
+      "takeaways": ["Take at the same time each day on an empty stomach.", "Regular thyroid blood tests are needed."],
+      "diet_rules": ["Separate by at least 4 hours from iron, calcium and antacid medicines."]
+    },
+    "metronidazole": {
+      "aliases": ["flagyl", "metro"],
+      "category": "antibiotic / antiprotozoal",
+      "indications_summary": "Used for certain bacterial and parasitic infections.",
+      "common_side_effects": ["Nausea", "metallic taste", "dark urine"],
+      "cautions": ["Do not drink alcohol during and for 48 hours after treatment.", "Complete the full course."],
+      "takeaways": ["Avoid alcohol completely during treatment."],
+      "diet_rules": ["Avoid alcohol and alcohol-containing products during and 48 hours after treatment."]
+    },
+    "ofloxacin": {
+      "aliases": ["floxin", "zenflox"],
+      "category": "antibiotic (fluoroquinolone)",
+      "indications_summary": "Antibiotic for certain bacterial infections.",
+      "common_side_effects": ["Nausea", "dizziness", "sensitivity to sunlight"],
+      "cautions": ["Hydrate well and avoid intense sunlight.", "Report tendon pain, especially if you are over 60."],
+      "takeaways": ["Complete the full course."],
+      "diet_rules": ["Avoid milk or antacids within 2 hours of the dose."]
+    },
+    "cetirizine": {
+      "aliases": ["zyrtec", "cetzine", "alerid"],
+      "category": "antihistamine",
+      "indications_summary": "Used for allergies such as hay fever and hives.",
+      "common_side_effects": ["Drowsiness", "dry mouth"],
+      "cautions": ["May cause drowsiness; use care when driving."],
+      "takeaways": ["Take the dose as prescribed; it works best when taken regularly."],
+      "diet_rules": ["Alcohol may increase drowsiness."]
+    },
+    "loratadine": {
+      "aliases": ["claritin", "lorfast"],
+      "category": "antihistamine (non-drowsy)",
+      "indications_summary": "Used for allergies.",
+      "common_side_effects": ["Headache", "dry mouth"],
+      "takeaways": ["Usually causes less drowsiness; still check how you feel before driving."],
+      "diet_rules": []
+    },
+    "domperidone": {
+      "aliases": ["domstal", "motilium"],
+      "category": "anti-nauseant / prokinetic",
+      "indications_summary": "Used for nausea and gastroparesis.",
+      "common_side_effects": ["Dry mouth", "headache"],
+      "cautions": ["Use the lowest dose for the shortest time due to heart rhythm risk in some people."],
+      "takeaways": ["Take before meals as directed."],
+      "diet_rules": ["Take 15-30 minutes before meals."]
+    },
+    "ondansetron": {
+      "aliases": ["emiset", "zofran", "vomifil"],
+      "category": "anti-nauseant (5-HT3 antagonist)",
+      "indications_summary": "Used to prevent nausea and vomiting.",
+      "common_side_effects": ["Headache", "constipation"],
+      "cautions": ["Tell your doctor if you have heart rhythm problems."],
+      "takeaways": ["Take as directed; it is usually taken when needed."],
+      "diet_rules": []
+    },
+    "rosuvastatin": {
+      "aliases": ["rosuvas", "crestor", "rosave", "eosus"],
+      "category": "statin; cholesterol lowering",
+      "indications_summary": "Used to lower LDL cholesterol, total cholesterol and triglycerides, and to prevent cardiovascular events.",
+      "common_side_effects": ["Headache", "muscle pain", "abdominal pain", "weakness"],
+      "cautions": ["Report unexplained muscle pain, tenderness, or weakness immediately.", "Use with caution in liver disease or severe renal impairment."],
+      "takeaways": ["Take once daily at the same time each day, with or without food.", "Do not stop taking without consulting your doctor."],
+      "diet_rules": ["Can be taken with or without food. Maintain a heart-healthy, low-cholesterol diet."]
+    },
+    "rabeprazole": {
+      "aliases": ["cyra", "cyro", "cyra d", "cyro d", "pariet", "rabicip", "rabiloc"],
+      "category": "proton pump inhibitor (PPI) + prokinetic combination",
+      "indications_summary": "Used for gastroesophageal reflux disease (GERD), acid peptic disorders, dyspepsia, and nausea/vomiting.",
+      "common_side_effects": ["Headache", "diarrhea", "nausea", "dry mouth"],
+      "cautions": ["Best taken before food.", "Inform doctor if symptoms do not improve."],
+      "takeaways": ["Take 30 minutes to 1 hour before breakfast or meals as prescribed."],
+      "diet_rules": ["Take on an empty stomach, 1/2 hour before food."]
+    },
+    "levocetirizine": {
+      "aliases": ["lanoler", "levorid", "xyzal", "teczine", "vozet"],
+      "category": "antihistamine (anti-allergy)",
+      "indications_summary": "Used for allergic rhinitis, cold/fever allergy symptoms, sneezing, itching, and hives.",
+      "common_side_effects": ["Mild drowsiness", "dry mouth", "fatigue"],
+      "cautions": ["May cause slight drowsiness; exercise caution when driving or operating machinery."],
+      "takeaways": ["Take as directed by doctor. Usually taken once daily in the evening or when required."],
+      "diet_rules": ["Can be taken with or without food."]
+    },
+    "prednisolone": {
+      "aliases": ["wysolone", "omnacortil", "prednisone"],
+      "category": "corticosteroid",
+      "indications_summary": "Used for inflammation and immune conditions.",
+      "common_side_effects": ["Increased appetite", "insomnia", "stomach upset"],
+      "cautions": ["Do not stop suddenly after long use — taper with medical guidance.", "Monitor blood sugar if diabetic."],
+      "takeaways": ["Take in the morning with breakfast where advised.", "Do not stop suddenly."],
+      "diet_rules": ["Take with food."]
+    },
+    "cholecalciferol": {
+      "aliases": ["vitamin d3", "vit d", "uprise d3", "d3", "calciterol"],
+      "category": "vitamin",
+      "indications_summary": "Used for vitamin D deficiency.",
+      "common_side_effects": ["Rare at recommended doses"],
+      "cautions": ["Do not take extra doses on your own."],
+      "takeaways": ["Often taken once weekly as prescribed."],
+      "diet_rules": ["Take with a meal containing fat for better absorption."]
+    },
+    "ferrous_sulphate": {
+      "aliases": ["iron", "ferrous sulfate", "fes04", "fe sulphate", "iron sachet"],
+      "category": "iron supplement",
+      "indications_summary": "Used to treat or prevent iron deficiency.",
+      "common_side_effects": ["Constipation", "dark stools", "stomach upset"],
+      "cautions": ["Keep away from children.", "Stool may turn black — this is expected."],
+      "takeaways": ["Take as prescribed; there is no need for concern about dark stools."],
+      "diet_rules": ["Best taken on an empty stomach, or with food if it upsets your stomach.", "Separate from tea, coffee, milk and calcium by at least 2 hours."]
+    },
+    "calcium": {
+      "aliases": ["calcium carbonate", "calcium citrate", "calcimax", "sarva"],
+      "category": "calcium supplement",
+      "indications_summary": "Used to maintain bone health when intake is insufficient.",
+      "common_side_effects": ["Constipation", "bloating"],
+      "cautions": ["Do not exceed the recommended dose."],
+      "takeaways": ["Take as directed; split doses may absorb better."],
+      "diet_rules": ["Separate from iron and thyroid medicine by at least 2 hours."]
+    }
+  },
+  "interactions": {
+    "paracetamol": {
+      "warfarin": "Long-term regular paracetamol can increase the effect of warfarin; regular monitoring is advisable.",
+      "alcohol": "Regular heavy alcohol intake increases the risk of liver damage with paracetamol."
+    },
+    "ibuprofen": {
+      "aspirin": "Taking both ibuprofen and aspirin at the same time increases stomach-bleeding risk.",
+      "anticoagulants": "NSAIDs with anticoagulants (e.g. warfarin) increase bleeding risk.",
+      "ace_inhibitors": "NSAIDs can reduce the blood-pressure-lowering effect of ACE inhibitors."
+    },
+    "amlodipine": {
+      "grapefruit": false
+    },
+    "metformin": {
+      "alcohol": "Heavy alcohol intake increases the risk of lactic acidosis."
+    },
+    "levothyroxine": {
+      "iron": "Separate iron supplements from levothyroxine by at least 4 hours.",
+      "calcium": "Separate calcium supplements from levothyroxine by at least 4 hours.",
+      "antacids": "Separate antacids from levothyroxine by at least 4 hours."
+    },
+    "atorvastatin": {
+      "grapefruit": false
+    },
+    "ofloxacin": {
+      "milk": "Separate fluoroquinolone antibiotics from milk and antacids by about 2 hours.",
+      "antacids": "Separate fluoroquinolone antibiotics from milk and antacids by about 2 hours."
+    },
+    "metronidazole": {
+      "alcohol": "Alcohol must be avoided during and 48 hours after metronidazole treatment."
+    }
+  }
+}
